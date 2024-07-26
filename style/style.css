@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inika:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    font-family: Inika;
+}
+.main_section{
+    background: url('../image/Group\ 12.svg') no-repeat center center/cover;
+    width: 100%;
+    min-height: 100vh;
+}
+.third_place, .first_place, .second_place{
+    position: relative;
+}
+.crown_img{
+    position: absolute;
+    top: -25%;
+    left: 51px;
+}
+
+.third_place .crown_img, .second_place .crown_img{
+    position: absolute;
+    left: 68px !important;
+}
+.second_card{
+    border: 1px solid rgba(27, 2, 255, 0.26);
+    border-radius: 16px;
+}
